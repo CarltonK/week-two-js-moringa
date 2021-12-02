@@ -27,14 +27,10 @@
 // }
 
 const weatherDeterminer = (weather) => {
-    if (typeof weather == String) {
-        if (weather == "Sunny") {
-            return 'Just grab a vest'
-        } else {
-            return 'You might want to bring a jacket'
-        }
+    if (weather == "Sunny") {
+        return 'Just grab a vest'
     } else {
-        return 'Please enter a valid value';
+        return 'You might want to bring a jacket'
     }
 }
 
